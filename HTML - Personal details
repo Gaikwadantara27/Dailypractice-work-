@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>SECD161 Antara Gaikwad</title> 
+ </head> 
+ <body> 
+ <h1><u>Personal Information</u></h1> 
+ <p><b>Name:</b> Gaikwad Antara Raju</p> 
+ <p><b>Qualification:</b><i> Bachelor of Engineering</i></p> 
+ <p><b>Department:</b><mark> Computer Engineering</mark></p> 
+ <p><b>College:</b><strong> NMIET</strong></p> 
+ <p><b>Email:</b><em> antara.gaikwad@gmail.com</em></p> 
+ <p><b>MobileNo. :</b><strike> 95795xxxxx</strike> 
+ <p><b>Address:</b> Gokul Complex,Chakan,Tal-Khed,Dist-Pune(410501)</p> 
+ </body> 
+</html> 
