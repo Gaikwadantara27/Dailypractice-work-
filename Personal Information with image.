@@ -1,0 +1,46 @@
+</html><!DOCTYPE html> 
+<head> 
+<title>SECA161 Antara Gaikwad</title> 
+</head> 
+<body> 
+<h1><u>Personal Information</u></h1> 
+<p><b>Name:</b> Gaikwad Antara Raju</p> 
+<p><b>Qualification:</b><i> Bachelor of Engineering</i></p> 
+<p><b>Department:</b><mark> Computer Engineering</mark></p> 
+<p><b>College:</b><strong> NMIET</strong></p> 
+<p><b>Email:</b><em> antara.gaikwad@gmail.com</em></p> 
+<p><b>MobileNo. :</b><strike> 9579596257</strike> 
+<p><b>Address:</b>Gokul Complex,Chakan,Tal-Khed,Dist-Pune(410501)</p> 
+</body> 
+ <h3>Nutan Maharashtra Institute of Engineering</h3> 
+ <a href="https://www.nmiet.edu.in/"> 
+ <img src="https://pcet.org.in/images/nmiet-slider-img-1.png" 
+ alt="Nutan Maharashtra Institute of Engineering" 
+ width="350" height="200"> 
+ </a> 
+<h2>Student Marks</h2> 
+<table border = 2 width = "30%" bgcolor="DCD3FF" align = "centre" 
+cellspacing="3" 
+cellpadding="4"> 
+ <tr> 
+ <th>Branch Name</th> 
+ <th>Location</th> 
+ </tr> 
+ <tr> 
+ <td>Computer Engineering</td> 
+ <td> 
+ <table border="1" bgcolor="lightyellow" cellspacing="2" cellpadding="3"> 
+ <tr> 
+ <th>Wing A</th> 
+<th>Wing B</th> 
+ </tr> 
+ <tr> 
+ <td><CENTER>computer students</CENTER></td> 
+ <td><CENTER>AIDS students</CENTER></td> 
+ </tr> 
+ </table> 
+ </td> 
+ </tr> 
+</table> 
+</body> 
+</html>
