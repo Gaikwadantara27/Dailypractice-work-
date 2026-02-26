@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+
+    <script>
+        function check() {
+            var n = document.getElementById("u").value;
+
+            if (n == "") {
+                alert("Name Required for Your Name");
+                return false;
+            }
+
+            alert("Success!");
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Form Validation Example</h2>
+
+    <form onsubmit="return check()">
+        Name:
+        <input type="text" id="u"><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
