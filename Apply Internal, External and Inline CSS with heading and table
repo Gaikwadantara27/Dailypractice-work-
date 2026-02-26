@@ -1,0 +1,72 @@
+<head>
+<!-- External CSS Link -->
+<link rel="stylesheet" href="style.css">
+<style>
+
+/* Internal CSS */
+h2 {border-left: 8px solid #006605; padding-left: 10px; }
+.row-highlight {background-color: #e3f2fd;}
+</style>
+</head>
+<body>
+<h2>SE Computer - Student Records</h2> 
+<div class="box-model-demo">Box Model Demonstration</div>
+<table>
+<tr><th>Roll</th><th>Name</th><th>CSS Method</th></tr>
+<tr class="row-highlight"> <td>301</td><td>Antara</td><td>Internal (Row Highlight)</td> </tr>
+<tr>
+<td>302</td><td>Siddhi</td> 
+
+<!-- Inline CSS Example -->
+<td style="color: blue; font-weight: bold;">Inline CSS (Blue Text)</td> 
+</tr>
+</table>
+</body>
+</html>
+
+/* style.css - External CSS */
+/* Body Styling */ 
+body {
+font-family: Arial, sans-serif; margin: 20px;
+background-color: #f9f9f9;
+}
+
+/* Box Model Demonstration */
+.box-model-demo {
+width: 250px;
+padding: 20px; /* Inside spacing */
+border: 5px solid #100b22; /* Border thickness */
+margin: 15px 0; /* Outside spacing */
+background-color: #6fbfee;
+text-align: center;
+}
+
+/* Table Styling */
+table {
+width: 60%;
+border-collapse: collapse; /* Removes double borders */
+margin-top: 20px,
+}
+
+th, 
+td {
+border: 1px solid #999;
+padding: 10px;
+text-align: left;
+}
+
+/* Table Header Styling */ th {
+background-color: #0030ce; 
+color: white;
+}
+
+/* Zebra Striping for Table Rows */ 
+tr:nth-child(even) { 
+background-color: #f2f2f2;
+}
+
+/* Hover Effect */
+tr:hover {
+background-color: #d1e7fd;
+transition: 0.3s;
+}
