@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DOM Dynamic Content Example</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-top: 100px;
+      }
+      #content {
+        font-size: 24px;
+        margin: 20px;
+        color: #772663;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dynamic Content using DOM</h1>
+
+    <p id="content">Click the button to change this text!</p>
+
+    <button onclick="changeContent()">Change Colour</button>
+
+    <script>
+      function changeContent() {
+        // Change text
+        document.getElementById("content").innerHTML =
+          "The content has been changed dynamically!";
+
+        // Change background color
+        document.body.style.backgroundColor = "lightblue";
+      }
+    </script>
+  </body>
+</html>
